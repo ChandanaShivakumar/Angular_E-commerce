@@ -1,0 +1,907 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgUrl": {
+        "img1": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14572050/2022/2/3/f7390b3d-ae00-4cfa-92b2-e0c8ec36a1a11643873057427-Dennis-Lingo-Men-Blue-Slim-Fit-Windowpane-Checked-Casual-Shi-1.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61UO+FOQNWL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/613Y6xzny8L._UY879_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81Hhhy37piL._UY879_.jpg"
+      },
+      "description": "Check print shirt has a collard neck, and long sleeves. It is Slim Fit and the material is 100% Super Combed Cotton. Prefer Machine Wash",
+      "name": "Mens Check print shirt",
+      "price": 899,
+      "brand": "HERE & NOW",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "Shirt",
+      "size": "XS",
+      "star": 4,
+      "ratings": "1.5k",
+      "discountedprice": 1999,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 2,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/I/61nacYmE8qL._UL1000_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61boxi9PKML._UY675_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ki7JbMktL._UY675_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71W-Y6vBmlL._UY675_.jpg"
+      },
+      "description": "Elite footwear from an elite racing team. These shoes combine the adrenaline of your run with the adrenaline of the race, infusing a classic athletic silhouette with sleek motorsport.",
+      "name": "Womens High sole converse",
+      "brand": "Bata",
+      "price": 999,
+      "category": "Footwear",
+      "gender": "Women",
+      "type": "Shoes",
+      "star": 3.5,
+      "ratings": "1k",
+      "discountedprice": 4599,
+      "seller": "Sun and Star"
+    },
+    {
+      "id": 3,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61lUAn53DAL._UY695_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61-f0mqi14L._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61qluTyA0GL._UY695_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61sB62Nn4gL._UY695_.jpg"
+      },
+      "description": "Pure leather bag 1 main compartment, has a zip closure, 2 inner pockets.Warranty: 3 months. Warranty provided by brand owner/manufacturer",
+      "name": "Womens Handbag",
+      "brand": "STYBUZZ",
+      "price": 2300,
+      "category": "Accessories",
+      "gender": "Women",
+      "type": "Bag",
+      "star": 4.5,
+      "ratings": "2.5k",
+      "discountedprice": 5299,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 4,
+      "imgUrl": {
+        "img1": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17027652/2022/2/3/e3df684b-c1d4-4cab-8c8a-6fde79f378b01643879161936TitanMenBlackDialBlackStainlessSteelBraceletStyleStrapsAnalo1.jpg",
+        "img2": "https://staticimg.titan.co.in/Titan/Catalog/90077KM04_2.jpg?impolicy=pqmed&imwidth=640",
+        "img3": "https://staticimg.titan.co.in/Titan/Catalog/90077KM04_4.jpg?impolicy=pqmed&imwidth=640",
+        "img4": "https://staticimg.titan.co.in/Titan/Catalog/90077KM04_6.jpg?impolicy=pqmed&imwidth=640"
+      },
+      "description": "black solid round stainless steel dial. Black, regular, silicon strap with a tang closure. Warranty: 6 months. Warranty provided by brand owner/manufacturer",
+      "name": "Mens watch",
+      "brand": "Sonata",
+      "price": 1999,
+      "category": "Electronics",
+      "gender": "Men",
+      "type": "Watch",
+      "star": 4.9,
+      "ratings": "1.99k",
+      "discountedprice": 2999,
+      "seller": "Rapid Del"
+    },
+    {
+      "id": 5,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/I/71kRwX+4ngL._UX522_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81nQd1kziZL._UX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71TvqACCoML._UX679_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71ZA9IfdjoL._UX679_.jpg"
+      },
+      "description": "Multicolored scraf. Material is Viscose Rayon and prefers Machine Wash",
+      "name": "Multicolored stole",
+      "brand": "Roadster",
+      "price": 200,
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "Stole",
+      "star": 4,
+      "ratings": "35k",
+      "discountedprice": 899,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 6,
+      "name": "Asparagus",
+      "description": "Asparagus with ham on the wooden table",
+      "imgUrl": {
+        "img1": "https://www.acouplecooks.com/wp-content/uploads/2021/03/Broiled-Asparagus-005.jpg",
+        "img2": "https://www.acouplecooks.com/wp-content/uploads/2020/01/Baked-Asparagus-008.jpg",
+        "img3": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Grilled-Asparagus-009.jpg",
+        "img4": "https://www.acouplecooks.com/wp-content/uploads/2020/03/Steamed-Asparagus-012.jpg"
+      },
+      "brand": "Shuddi Organics",
+      "price": 18.95,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Vegetable",
+      "star": 3.5,
+      "ratings": "19k",
+      "discountedprice": 59,
+      "seller": "Sunshine"
+    },
+    {
+      "id": 7,
+      "name": "Green smoothie",
+      "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
+      "imgUrl": {
+        "img1": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2020/06/healthy-green-smoothie-034.jpg",
+        "img2": "https://hips.hearstapps.com/hmg-prod/images/766/anti-aging-smoothie-1506429211.jpg?resize=1200:*",
+        "img3": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2020/06/healthy-green-smoothie-034-428x642.jpg",
+        "img4": "https://www.simplyquinoa.com/wp-content/uploads/2022/04/favorite-green-smoothie-recipe-3.webp"
+      },
+      "brand": "Inpired Tastes",
+      "price": 17.68,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Juice",
+      "star": 3.9,
+      "ratings": "1.9k",
+      "discountedprice": 70,
+      "seller": "Fresh Farm"
+    },
+    {
+      "id": 8,
+      "name": "Sponge cake",
+      "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+      "imgUrl": {
+        "img1": "https://i.insider.com/5d02a704daa48241e03ef192?width=700",
+        "img2": "https://thumbs.dreamstime.com/b/butter-cake-made-oven-production-bakery-baking-bread-manufacture-137735099.jpg",
+        "img3": "https://www.mashed.com/img/gallery/the-easy-trick-that-will-save-your-over-baked-cake/intro-1655321833.webp",
+        "img4": "https://media.istockphoto.com/id/1004506990/photo/woman-checking-apple-pie-in-oven.jpg?s=612x612&w=0&k=20&c=h_BOWwBI6VnYJ1gpQzVvGsAZ_RBRII1INvje_KMdb5I="
+      },
+      "brand": "Just bake",
+      "price": 11.14,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Cake",
+      "star": 4.9,
+      "ratings": "1.99k",
+      "discountedprice": 20,
+      "seller": "Bakers spot"
+    },
+    {
+      "id": 9,
+      "name": "Womens Tunic top",
+      "description": "Womes tunic top. Ethnic touch. Three-quarter sleeves",
+      "imgUrl": {
+        "img1": "https://cdn.shopify.com/s/files/1/0637/4834/1981/products/blue-casual-wear-embroidered-rayon-top-peachmode-1_large.jpg?v=1669053460",
+        "img2": "https://cdn.shopify.com/s/files/1/0637/4834/1981/products/blue-casual-wear-embroidered-rayon-top-peachmode-2.jpg?v=1669053462",
+        "img3": "https://cdn.shopify.com/s/files/1/0637/4834/1981/products/blue-casual-wear-embroidered-rayon-top-peachmode-3.jpg?v=1669053464",
+        "img4": "https://cdn.shopify.com/s/files/1/0637/4834/1981/products/blue-casual-wear-embroidered-rayon-top-peachmode-4.jpg?v=1669053467"
+      },
+      "brand": "Roadster",
+      "price": 799,
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "Top",
+      "star": 3.5,
+      "ratings": "1k",
+      "discountedprice": 1099,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 10,
+      "name": "Oranges",
+      "description": "Orange , a refreshing summer treat.",
+      "imgUrl": {
+        "img1": "https://i.pinimg.com/originals/4f/7a/2d/4f7a2dc393faa8ccaefbdca523fb13ae.jpg",
+        "img2": "https://eromay.com/wp-content/uploads/2019/02/PHOTO-2019-02-04-15-22-32-e1549969417222.jpg",
+        "img3": "https://eromay.com/wp-content/uploads/2019/03/nueva-variedad-citricos_sunchine.jpg",
+        "img4": "https://images.squarespace-cdn.com/content/v1/5e313d76b6c4e169efe3a301/1633672014044-YB5N76TVPJHCKHY9YBFX/20211008_161201.jpg?format=750w"
+      },
+      "brand": "Bigbasket",
+      "price": 21.48,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Fruit",
+      "star": 4.9,
+      "ratings": "1.99k",
+      "discountedprice": 88,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 11,
+      "name": "Womens cropped jeans",
+      "description": "Light shade, cropped, heavy fade blue jeans. Mom-fit, high-rise, Low distress, Non stretchable",
+      "imgUrl": {
+        "img1": "https://pimg.bucklecontent.com/images/products/52100362000240/ORD/f/7ad6102d3f64e7c2cb50f7b3bb839c86v3?quality=0.8&width=392",
+        "img2": "https://pimg.bucklecontent.com/images/products/52100362000240/ORD/b/aecb1f7d0cca090d4a22780f5f55dedev3?quality=0.8&width=845",
+        "img3": "https://pimg.bucklecontent.com/images/products/52100362000240/ORD/d1/e1cd0145ccd1f1a2ffee153ad92c322dv3?quality=0.8&width=845",
+        "img4": "https://pimg.bucklecontent.com/images/products/52100362000240/ORD/d2/54b0857f43c39bc7ba1bebeda01f80f0v3?quality=0.8&width=845"
+      },
+      "brand": "Zara",
+      "price": 3999,
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "Jeans",
+      "star": 4.9,
+      "ratings": "1.99k",
+      "discountedprice": 4999,
+      "seller": "Sun and Star"
+    },
+    {
+      "id": 12,
+      "name": "Womens Floral top",
+      "description": "Yellow floral printed front knot top, three-quarter balloon sleeves",
+      "imgUrl": {
+        "img1": "https://img.faballey.com/images/Product/TOP05672Z/1.jpg",
+        "img2": "https://img.faballey.com/images/Product/TOP05672Z/d4.jpg",
+        "img3": "https://img.faballey.com/images/Product/TOP05672Z/d7.jpg",
+        "img4": "https://img.faballey.com/images/Product/TOP05672Z/d8.jpg"
+      },
+      "brand": "FabAlley",
+      "price": 799,
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "Top",
+      "star": 3.5,
+      "ratings": "19k",
+      "discountedprice": 869,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 13,
+      "name": "Womens watch",
+      "description": "It is an Analogue, Mechanical, Textured round stainless steel dial. Water Resistant",
+      "imgUrl": {
+        "img1": "https://rukminim1.flixcart.com/image/832/832/l3xcr680/watch/y/y/i/2-jwbs603-joker-witch-women-original-imagexzfvcdghwf4.jpeg?q=70",
+        "img2": "https://cdn.shopify.com/s/files/1/1008/4952/products/AMWW214_1-min_4_0ff2bb54-a0eb-48cd-b15c-ce52a252081f_540x.jpg?v=1644411619",
+        "img3": "https://cdn.shopify.com/s/files/1/1008/4952/products/AMWW214_2-min_4_0a8b9d84-89ab-43cd-8c38-21ecdc8364ad_540x.jpg?v=1644411619",
+        "img4": "https://cdn.shopify.com/s/files/1/1008/4952/products/JWJ762_3-min_1_540x.jpg?v=1644411619"
+      },
+      "brand": "Joker and Witch",
+      "price": 1799,
+      "category": "Electronics",
+      "gender": "Women",
+      "type": "Watch",
+      "star": 3.5,
+      "ratings": "1k",
+      "discountedprice": 1988,
+      "seller": "Sun and Star"
+    },
+    {
+      "id": 14,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/I/61g+0kr2OGL._AC_UL1500_.jpg",
+        "img2": "https://m.media-amazon.com/images/I/61G-jOy5wpL._AC_UL1500_.jpg",
+        "img3": "https://m.media-amazon.com/images/I/61p+fMFlbmL._AC_UL1500_.jpg",
+        "img4": "https://m.media-amazon.com/images/I/711v9t48WSL._AC_UL1500_.jpg"
+      },
+      "description": "Mens casual style summer daily tshirt with zipper. Polo collar cotton material.",
+      "name": "Mens collar tshirt",
+      "price": 699,
+      "brand": "HERE & NOW",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "TShirt",
+      "star": 3.5,
+      "ratings": "2k",
+      "discountedprice": 1208,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 15,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81y1h+SZWBL._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71uGJTFg4ML._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71GeGQSTi1L._UY879_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/91LskEcZHML._UY879_.jpg"
+      },
+      "description": "Mens low-waist clean jeans. Skinny fit. Medium-washed jeans. Blue jeans",
+      "name": "Mens blue jeans",
+      "price": 1699,
+      "brand": "HERE & NOW",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "Jeans",
+      "star": 5,
+      "ratings": "50k",
+      "discountedprice": 1750,
+      "seller": "Rapid Del"
+    },
+    {
+      "id": 16,
+      "name": "Brown Rice",
+      "description": "Brown rice of high quality. Useful for diet freaks",
+      "imgUrl": {
+        "img1": "https://5.imimg.com/data5/IOS/Default/2021/12/HY/QW/TS/71853916/product-jpeg-500x500.png",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81XAsKRniAL._SY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61TQHARflCL._SX679_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61a0KockKnL._SX679_.jpg"
+      },
+      "brand": "Shuddi Organics",
+      "price": 200.1,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Rice",
+      "star": 4,
+      "ratings": "1.5k",
+      "discountedprice": 260.9,
+      "seller": "Fresh Farm"
+    },
+    {
+      "id": 17,
+      "imgUrl": {
+        "img1": "https://images.express.com/is/image/expressfashion/0024_02847676_0019_f001?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+        "img2": "https://images.express.com/is/image/expressfashion/0024_02847676_0019_f002?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+        "img3": "https://images.express.com/is/image/expressfashion/0024_02847676_0019_f003?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+        "img4": "https://images.express.com/is/image/expressfashion/0024_02847676_0019_d100?cache=on&wid=960&fmt=jpeg&qlt=85,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon"
+      },
+      "description": "Mens ripped and distressed jeans. Skinny fit. Light-washed jeans",
+      "name": "Mens ripped blue jeans",
+      "price": 1699,
+      "brand": "HERE & NOW",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "Jeans",
+      "star": 4.9,
+      "ratings": "5k",
+      "discountedprice": 1999,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 18,
+      "name": "Apples",
+      "description": "Fresh Red apples",
+      "imgUrl": {
+        "img1": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-82540,resizemode-1,msid-94428377/magazines/panache/apples-arent-what-they-used-to-be-commercialisation-has-made-the-fruit-almost-tasteless.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/810DNTdzRiL._SX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81couXO41YL._SX679_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81AK2aQ8VvL._SX679_.jpg"
+      },
+      "brand": "Bigbasket",
+      "price": 20.95,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Fruit",
+      "star": 4.5,
+      "ratings": "2.5k",
+      "discountedprice": 78,
+      "seller": "Fresh Farm"
+    },
+    {
+      "id": 19,
+      "imgUrl": {
+        "img1": "https://i.pinimg.com/originals/f3/73/cd/f373cdec4b6bb12866c771eb3af4f862.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61EJxytnV5L._UX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/618lg-21+hL._UX679_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61gFW3D0DyL._UX679_.jpg"
+      },
+      "description": "Mens mid-waist clean jeans. Skinny fit. Black jeans",
+      "name": "Mens black jeans",
+      "price": 2999,
+      "brand": "Levis",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "Jeans",
+      "star": 4.5,
+      "ratings": "2.5k",
+      "discountedprice": 3598,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 20,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61K9u5gS61L._UY879_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61kWbcw10VL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61QwwjI+TeL._UY879_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81puS3aZAtL._UY879_.jpg"
+      },
+      "description": "Mens casual style summer daily tshirt. Round neck. Black and yellow cotton material.",
+      "name": "Mens tshirt",
+      "price": 699,
+      "brand": "H&M",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "TShirt",
+      "star": 5,
+      "ratings": "90k",
+      "discountedprice": 878,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 21,
+      "name": "Mens watch",
+      "description": "It is an Analogue, Mechanical, Textured round stainless steel dial. Water Resistant",
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51PfIs34eML._UX522_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51WGm8ml87L._UX522_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41CpyjMFFnL._UX522_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81JCIMlOuHL._UX679_.jpg"
+      },
+      "brand": "Titan",
+      "price": 1799,
+      "category": "Electronics",
+      "gender": "Men",
+      "type": "Watch",
+      "star": 3.9,
+      "ratings": "1.9k",
+      "discountedprice": 1998,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 22,
+      "imgUrl": {
+        "img1": "https://img3.junaroad.com/uiproducts/17734415/pri_175_p-1620735939.jpg",
+        "img2": "https://rukminim1.flixcart.com/image/832/832/ktuewsw0/t-shirt/o/b/b/xxl-2xl-austiex-original-imag73pdvfmetzcf.jpeg?q=70",
+        "img3": "https://rukminim1.flixcart.com/image/832/832/ktuewsw0/t-shirt/e/q/6/xxl-2xl-austiex-original-imag73pdba9ewbra.jpeg?q=70",
+        "img4": "https://rukminim1.flixcart.com/image/832/832/ktuewsw0/t-shirt/d/p/b/xxl-2xl-austiex-original-imag73pdthzy4fjn.jpeg?q=70"
+      },
+      "description": "Mens tshirt. Round neck. Polyster material active wear.",
+      "name": "Mens tshirt",
+      "price": 999,
+      "brand": "H&M",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "TShirt",
+      "star": 3.9,
+      "ratings": "1.9k",
+      "discountedprice": 1998,
+      "seller": "Rapid Del"
+    },
+    {
+      "id": 23,
+      "imgUrl": {
+        "img1": "https://contents.mediadecathlon.com/p1974651/3a98eaeec038edccc573751f2662bd03/p1974651.jpg?format=auto&quality=70&f=650x0",
+        "img2": "https://contents.mediadecathlon.com/p1975293/k$b975860c6456981a3c3e133e1c46c64c/men-s-running-breathable-t-shirt-kalenji-dry-breath-slate-blue.jpg?format=auto&quality=40&f=800x800",
+        "img3": "https://contents.mediadecathlon.com/p1974945/k$90932343f3245dbbc6bc3a51555ba379/men-s-running-breathable-t-shirt-kalenji-dry-breath-slate-blue.jpg?format=auto&quality=40&f=800x800",
+        "img4": "https://contents.mediadecathlon.com/p1974890/k$87b73f3f9799bc3479e4697f59af3f1f/men-s-running-breathable-t-shirt-kalenji-dry-breath-slate-blue.jpg?format=auto&quality=40&f=800x800"
+      },
+      "description": "Mens tshirt. Round neck. Polyster material active wear. Mens running and breathable material tshirt",
+      "name": "Mens tshirt",
+      "price": 999,
+      "brand": "Decathlon",
+      "category": "Clothing",
+      "gender": "Men",
+      "type": "TShirt",
+      "star": 3.5,
+      "ratings": "1k",
+      "discountedprice": 1398,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 24,
+      "name": "Womens watch",
+      "description": "It is an Analogue, Mechanical, Textured round stainless steel dial. Water Resistant",
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61q6wOFoAQL._UY500_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61MMmjDfoEL._UY500_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61M5zHrxIoL._UY500_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61wU3Nc33TL._UY500_.jpg"
+      },
+      "brand": "Titan",
+      "price": 1799,
+      "category": "Electronics",
+      "gender": "Women",
+      "type": "Watch",
+      "star": 3.5,
+      "ratings": "1k",
+      "discountedprice": 1999,
+      "seller": "Sun and Star"
+    },
+    {
+      "id": 25,
+      "imgUrl": {
+        "img1": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/q/a/b/m-new-printed-tshirts-anvi-be-yourself-original-imagkfhcaxwszgge.jpeg?q=70",
+        "img2": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/y/g/l/m-new-printed-tshirts-anvi-be-yourself-original-imagkfhcwumnwdtv.jpeg?q=70",
+        "img3": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/1/l/x/m-new-printed-tshirts-anvi-be-yourself-original-imagkfhcvreycnzr.jpeg?q=70",
+        "img4": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/w/6/i/m-new-printed-tshirts-anvi-be-yourself-original-imagkfhca2h95d5r.jpeg?q=70"
+      },
+      "description": "Womens friends tshirt. Round neck. Cotton material casual tshirt",
+      "name": "Womens F.R.I.E.N.D.S tshirt",
+      "price": 899,
+      "brand": "Roadster",
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "TShirt",
+      "star": 4,
+      "ratings": "1.5k",
+      "discountedprice": 1188,
+      "seller": "Vision Star"
+    },
+    {
+      "id": 26,
+      "imgUrl": {
+        "img1": "https://rukminim1.flixcart.com/image/832/832/xif0q/sling-bag/l/l/j/women-pu-leather-single-compartment-pocket-1-26-gsb-08-sling-bag-original-imagk8qv9bps8m5h.jpeg?q=70",
+        "img2": "https://rukminim1.flixcart.com/image/832/832/xif0q/sling-bag/3/u/j/women-pu-leather-single-compartment-pocket-1-26-gsb-08-sling-bag-original-imagk8qvqrzgsgyq.jpeg?q=70",
+        "img3": "https://rukminim1.flixcart.com/image/832/832/xif0q/sling-bag/x/q/q/women-pu-leather-single-compartment-pocket-1-26-gsb-08-sling-bag-original-imagk8qvhxtggykt.jpeg?q=70",
+        "img4": "https://rukminim1.flixcart.com/image/832/832/xif0q/sling-bag/d/y/d/women-pu-leather-single-compartment-pocket-1-26-gsb-08-sling-bag-original-imagk8qv2xbxweps.jpeg?q=70"
+      },
+      "description": "Pure leather bag 2 compartment, 2 inner pockets.Warranty: 3 months. Warranty provided by brand owner/manufacturer",
+      "name": "Womens Slingbag",
+      "brand": "Roadster",
+      "price": 510,
+      "category": "Accessories",
+      "gender": "Women",
+      "type": "Bag",
+      "star": 4.8,
+      "ratings": "1.25k",
+      "discountedprice": 798,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 27,
+      "imgUrl": {
+        "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fbd%2F6dbdb11f94e5adeff9753653c0309ebedb6a945f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+        "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd9%2F09%2Fd90960fdf3a1d98463bf0ed40cedcc42d28b366a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F47%2F13%2F4713d54172d0cd15d22b42fd26a5d1bf72e3723e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+        "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F56%2F7d%2F567d8ee2a5e48f2e42cbe706311e0ecd73aefeb4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+      },
+      "description": "Womens funky tshirt. Round neck. Cotton material casual tshirt. Oversized",
+      "name": "Womens tshirt",
+      "price": 999,
+      "brand": "H&M",
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "TShirt",
+      "star": 5,
+      "ratings": "45k",
+      "discountedprice": 1188,
+      "seller": "S & S marketing"
+    },
+    {
+      "id": 28,
+      "name": "Cherry",
+      "description": "Fresh Farm cherries",
+      "imgUrl": {
+        "img1": "https://thumbs.dreamstime.com/b/cherry-falling-basket-fresh-red-brown-over-water-wave-42960652.jpg",
+        "img2": "data:image/jpeg;base64,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",
+        "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVbro-k6LDG8u7fGbtH6Qyx-gVAM5QlX19w&usqp=CAU",
+        "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdCUfNueRPOz0jODo2KbZdv3kSmY66RjD_DQ&usqp=CAU"
+      },
+      "brand": "Bigbasket",
+      "price": 30.1,
+      "category": "Grocery",
+      "gender": "",
+      "type": "Fruit",
+      "star": 4.2,
+      "ratings": "15k",
+      "discountedprice": 88,
+      "seller": "Fresh Farm"
+    },
+    {
+      "id": 29,
+      "imgUrl": {
+        "img1": "https://cdn2.stylicy.com/global/image-5982-242797312-1-big-hr.jpg",
+        "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F14%2Fcc%2F14cc51a1ccf984811de09dc9c454ff29569a9cbd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmobilemain%5D",
+        "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbe%2Feb%2Fbeeb94439b1a9c64549020b2243a527807f09526.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmobilemain%5D",
+        "img4": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fdf%2Fa7%2Fdfa70da455a9d83246400aa0f07151904f9795d2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+      },
+      "description": "Womens casual tshirt. Piped Round neck. Cotton material graphic tshirt",
+      "name": "Womens tshirt",
+      "price": 999,
+      "brand": "H&M",
+      "category": "Clothing",
+      "gender": "Women",
+      "type": "TShirt",
+      "star": 3,
+      "ratings": "11k",
+      "discountedprice": 1232,
+      "seller": "Sunshine"
+    },
+    {
+      "id": 30,
+      "imgUrl": {
+        "img1": "https://www.mydesignation.com/wp-content/uploads/2022/01/minnal-murali-kids-tshirt-mydesignation-.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71iW2dynYlL._UY879_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/716X871v-AL._UY879_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71+S-FVN37L._UY879_.jpg"
+      },
+      "description": "Graphic tshirt for boys. 100% cotton material. Prefer machine wash in lukewarm water",
+      "name": "Boys Graphic Tshirt",
+      "price": 899,
+      "brand": "HERE & NOW",
+      "category": "Clothing",
+      "gender": "Boy",
+      "type": "TShirt",
+      "star": 3.9,
+      "ratings": "12k",
+      "discountedprice": 1104,
+      "seller": "Sun and Star"
+    },
+    {
+      "id": 31,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/715yRYmRhcL._AC_UX679_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/7164bSe293L._AC_UX679_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61i29mrfYiL._AC_UX679_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71yuJqewxGL._AC_UX679_.jpg"
+      },
+      "description": "Boys clean jeans. Light washed. Ankle length",
+      "name": "Boys Clean Jeans",
+      "price": 1999,
+      "brand": "Roadster",
+      "category": "Clothing",
+      "gender": "Boy",
+      "type": "TShirt",
+      "star": 4.3,
+      "ratings": "12.5k",
+      "discountedprice": 2341,
+      "seller": "Rapid Del"
+    },
+    {
+      "id": 32,
+      "imgUrl": {
+        "img1": "https://static.halfcute.com/rs:600:auto:auto/jpeg:95//product/privyexpress-doraemon-color-splash-printed-kids-t-shirt-holi-outfit-for-baby-girl-cotton-crew-round-neck-halfcute-25aafcc0-859b-11eb-b834-af4d0d1e2ac2.png",
+        "img2": "https://static.halfcute.com/rs:600:auto:auto/jpeg:85/cakeszone/product/privyexpress-doraemon-color-splash-printed-kids-t-shirt-holi-outfit-for-baby-girl-cotton-crew-round-neck-halfcute-336feb90-859b-11eb-b834-af4d0d1e2ac2.png",
+        "img3": "https://static.halfcute.com/rs:600:auto:auto/jpeg:85/cakeszone/product/privyexpress-doraemon-color-splash-printed-kids-t-shirt-holi-outfit-for-boys-cotton-crew-round-neck-halfcute-b0f40cd0-8628-11eb-8ed2-a1cc632f4951.png",
+        "img4": "https://rukminim1.flixcart.com/image/128/128/kr0ynbk0/kids-t-shirt/s/f/t/5-6-years-happy-birthday-princess-riva-printography-original-imag4wtzec8mebp3.jpeg?q=70"
+      },
+      "description": "Girls Doremon tshirt. Graphic tshirt. 100% cotton material",
+      "name": "Girls Tshirt",
+      "price": 699,
+      "brand": "Roadster",
+      "category": "Clothing",
+      "gender": "Girl",
+      "type": "TShirt",
+      "star": 4.1,
+      "ratings": "19k",
+      "discountedprice": 1113,
+      "seller": "Rapid Del"
+    },
+    {
+      "id": 33,
+      "imgUrl": {
+        "img1": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61oN833U1pL._UY625_.jpg",
+        "img2": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61CjgVIm2+L._UY695_.jpg",
+        "img3": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61SnMzB8hyL._UY625_.jpg",
+        "img4": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61WgK5eJC5L._UY625_.jpg"
+      },
+      "description": "Girls ankle boots. Cloth material. Washable",
+      "name": "Girls ankle boots",
+      "price": 999,
+      "brand": "Roadster",
+      "category": "Footwear",
+      "gender": "Girl",
+      "type": "Shoes",
+      "star": 5,
+      "ratings": "25k",
+      "discountedprice": 2145,
+      "seller": "S & S marketing"
+    }
+  ],
+  "users": [
+    {
+      "name": "Chandana",
+      "email": "chan@gmail.com",
+      "password": "Qwerty1",
+      "conpwd": "Qwerty1",
+      "gender": "Female",
+      "dob": "2000-05-29",
+      "age": 22,
+      "description": "Hi..chan here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img13.jpg",
+      "interest1": true,
+      "interest2": "",
+      "interest3": true,
+      "education": [
+        "10th",
+        "12th",
+        "B tech- ISE"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Harshith",
+      "email": "harsh@gmail.com",
+      "password": "Qwerty12",
+      "conpwd": "Qwerty12",
+      "gender": "Male",
+      "dob": "2008-06-06",
+      "age": 13,
+      "description": "Hey..harsh here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img5.jpg",
+      "interest1": "",
+      "interest2": true,
+      "interest3": "",
+      "education": [
+        "10th",
+        "12th",
+        "Btech, CSE"
+      ],
+      "id": 2
+    },
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "Admin123",
+      "conpwd": "Admin123",
+      "gender": "Male",
+      "dob": "1995-05-18",
+      "age": 27,
+      "description": "Admin here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img6.jpg",
+      "interest1": "",
+      "interest2": "",
+      "interest3": "",
+      "education": [
+        "10th",
+        "12th",
+        "Btech",
+        "Mtech"
+      ],
+      "id": 3
+    },
+    {
+      "name": "Ananya",
+      "email": "ana@gmail.com",
+      "password": "Qwerty123",
+      "conpwd": "Qwerty123",
+      "gender": "Female",
+      "dob": "2005-10-19",
+      "age": 17,
+      "description": "Hi..ana here!",
+      "occupation": "Government employee",
+      "tnc": true,
+      "file": "C:\\fakepath\\img7.jpg",
+      "interest1": true,
+      "interest2": true,
+      "interest3": true,
+      "education": [
+        "10th",
+        "12th"
+      ],
+      "id": 4
+    },
+    {
+      "name": "Shivakumar",
+      "email": "shiva@gmail.com",
+      "password": "Qwerty1234",
+      "conpwd": "Qwerty1234",
+      "gender": "Male",
+      "dob": "1973-02-15",
+      "age": 49,
+      "description": "Hi..shiva here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img1.webp",
+      "interest1": "",
+      "interest2": "",
+      "interest3": true,
+      "education": [
+        "10th",
+        "12th",
+        "Btech"
+      ],
+      "id": 5
+    },
+    {
+      "name": "Kavitha",
+      "email": "kavi@gmail.com",
+      "password": "Qwerty12345",
+      "conpwd": "Qwerty12345",
+      "gender": "Female",
+      "dob": "1977-06-13",
+      "age": "45",
+      "description": "Hey..kavi here!",
+      "occupation": "Teacher",
+      "tnc": true,
+      "file": "C:\\fakepath\\img6.jpg",
+      "interest1": "",
+      "interest2": true,
+      "interest3": "",
+      "education": [
+        "10th",
+        "12th",
+        "B.com"
+      ],
+      "id": 6
+    },
+    {
+      "name": "Gowramma",
+      "email": "gow@gmail.com",
+      "password": "Qwerty123456",
+      "conpwd": "Qwerty123456",
+      "gender": "Female",
+      "dob": "1953-01-18",
+      "age": "69",
+      "description": "Hi..gow here!",
+      "occupation": "Teacher",
+      "tnc": true,
+      "file": "C:\\fakepath\\img5.jpg",
+      "interest1": "",
+      "interest2": true,
+      "interest3": "",
+      "education": [
+        "10th"
+      ],
+      "id": 7
+    },
+    {
+      "name": "Vishal",
+      "email": "vish@gmail.com",
+      "password": "Qwerty1",
+      "conpwd": "Qwerty1",
+      "gender": "Male",
+      "dob": "2000-03-29",
+      "age": 22,
+      "description": "Hi..vish here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img8.jpg",
+      "interest1": true,
+      "interest2": "",
+      "interest3": true,
+      "education": [
+        "10th",
+        "12th",
+        "Engg"
+      ],
+      "id": 8
+    },
+    {
+      "name": "Manisha",
+      "email": "mani@gmail.com",
+      "password": "Qwerty1",
+      "conpwd": "Qwerty1",
+      "gender": "Female",
+      "dob": "2000-03-18",
+      "age": 22,
+      "description": "Hi..mani here!",
+      "occupation": "Doctor",
+      "tnc": true,
+      "file": "C:\\fakepath\\img7.jpg",
+      "interest1": "",
+      "interest2": true,
+      "interest3": true,
+      "education": [
+        "10th",
+        "12th",
+        "mbbs"
+      ],
+      "id": 9
+    },
+    {
+      "name": "Prem",
+      "email": "pre@gmail.com",
+      "password": "Qwerty1",
+      "conpwd": "Qwerty1",
+      "gender": "Male",
+      "dob": "2000-10-21",
+      "age": 22,
+      "description": "Hi..prem here!",
+      "occupation": "Businessman",
+      "tnc": false,
+      "file": "C:\\fakepath\\img7.jpg",
+      "interest1": true,
+      "interest2": "",
+      "interest3": "",
+      "education": [
+        "10th",
+        "12th",
+        "Bcom"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Harshitha",
+      "email": "ha@gmail.com",
+      "password": "Qwerty1",
+      "conpwd": "Qwerty1",
+      "gender": "Female",
+      "dob": "2000-06-05",
+      "age": "22",
+      "description": "Hi..ha here!",
+      "occupation": "Engineer",
+      "tnc": true,
+      "file": "C:\\fakepath\\img7.jpg",
+      "interest1": true,
+      "interest2": true,
+      "interest3": "",
+      "education": [
+        "10th",
+        "12th",
+        "Btech"
+      ],
+      "id": 11
+    }
+  ]
+}
