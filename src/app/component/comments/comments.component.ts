@@ -56,7 +56,7 @@ AfterContentInit, AfterContentChecked, OnDestroy{
     // this.texts.push(item)
     const json = Object.assign(obj, {comment : item});
     // console.log (typeof(json))
-    this._http.post<any>("http://localhost:3000/comments", json)
+    this._http.post<any>("https://angular-jsonserver.vercel.app/comments", json)
     .subscribe((response) => {
       this.comments = response;
     });
