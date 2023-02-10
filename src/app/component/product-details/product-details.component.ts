@@ -25,12 +25,12 @@ export class ProductDetailsComponent implements OnInit {
   constructor(private router: Router ,private route: ActivatedRoute, private http: HttpClient, private _cartservice: CartService, private _wishlistservice : WishlistService, private _commentservice : CommentsService) { }
 
   ngOnInit(){
-    const url: string = `http://localhost:3000/products/${this.id}`;
+    const url: string = `https://angular-jsonserver.vercel.app/products/${this.id}`;
     this.http.get(url).subscribe((response) => {
       this.products = response;
     });
 
-    const url2: string = 'http://localhost:3000/products';
+    const url2: string = 'https://angular-jsonserver.vercel.app/products';
     this.http.get(url2).subscribe((response) => {
       this.filterCategory = response;
      });
