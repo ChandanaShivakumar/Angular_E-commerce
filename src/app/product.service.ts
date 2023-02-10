@@ -7,9 +7,9 @@ import { IUser } from './user';
 @Injectable()
 export class ProductService {
 
-  private _url: string = "http://localhost:3000/products";
+  private _url: string = "https://angular-jsonserver.vercel.app/products";
 
-  private _url1: string = "http://localhost:3000/users";
+  private _url1: string = "https://angular-jsonserver.vercel.app/users";
 
 
   constructor(private http: HttpClient) {}
