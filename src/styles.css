@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+.ngx-pagination .disabled {
+    margin-top: 30px;
+}
+
+.ngx-pagination li {
+    margin-top: 30px;
+}
