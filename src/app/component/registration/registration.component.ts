@@ -72,7 +72,7 @@ export class RegistrationComponent {
   registerdata(registrationForm: FormGroup){
     //console.log(this.registrationForm.value);
     //this.signuser = this.registrationForm.value.name;  to retrieve the name of the registered user
-    this._http.post<any>("http://localhost:3000/users", this.registrationForm.value)
+    this._http.post<any>("https://angular-jsonserver.vercel.app/users", this.registrationForm.value)
     .subscribe(res=>{
       alert("Registration successful!");
       this.registrationForm.reset();
