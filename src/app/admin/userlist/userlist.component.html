@@ -1,0 +1,48 @@
+<!--User table starts-->
+<br>
+<div class="container" align="center">
+    <!--User Data Banner starts-->
+    <div
+        style="background-image: url('assets/images/img31.jpg'); background-repeat:repeat-y; background-size: 100% 400px;">
+        <br>
+        <div style="color:black; background-color:black; height: 3px; width: 50%;"
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+        <h1 class="Bann1" style="font-size:3vw; text-align: center;">USER DATA</h1>
+        <div style="color:black; background-color:black; height: 3px; width: 50%;"
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+        <br>
+    </div>
+    <!--Usrr Data Banner ends-->
+    <br>
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Age</th>
+            <th>Email Id</th>
+            <th>Occupation</th>
+            <th>Description</th>
+            <th colspan="3">Interests</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let us of users">
+                <td>{{us.id}}</td>
+                <td>{{us.name}}</td>
+                <td>{{us.dob}}</td>
+                <td>{{us.age}}</td>
+                <td>{{us.email}}</td>
+                <td>{{us.occupation}}</td>
+                <td>{{us.description}}</td>
+                <td *ngIf="us.interest1 === true">Classic</td>
+                <td *ngIf="us.interest2 === true">Ethnic</td>
+                <td *ngIf="us.interest3 === true">Relax</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!--User table ends-->
+
+<!--Adjustment starts-->
+<br><br><br><br><br><br><br><br><br><br><br>
+<!--Adjustments ends-->

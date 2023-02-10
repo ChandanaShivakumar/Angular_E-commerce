@@ -1,0 +1,16 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    background-color: #f2e6d9;
+}
+
+th{
+    padding: 12px;
+    background-color: #d2a679;
+}
