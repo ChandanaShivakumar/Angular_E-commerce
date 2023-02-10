@@ -1,0 +1,45 @@
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(1.5); 
+    
+    }
+
+    .card-top{
+        position:relative;
+        display:flex;
+        min-width:0;
+        word-wrap: break-word;
+        background:#fff;
+        background-clip: border-box;
+        border: 1px solid black;
+        border-radius: 0.25rem;
+    }
+
+    .C{
+        width: 200px; 
+        height: 300px;
+        align-self: center;
+    }
+/*     
+    .card{
+        width: 18rem;
+        float:left;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .card img:hover{
+        transition: 0.3s ease-in-out;
+        transform: scale(1.1);
+    } */

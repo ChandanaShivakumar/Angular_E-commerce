@@ -1,0 +1,47 @@
+.card{
+    height:70vh;
+    margin:25px;
+    padding:25px;
+}
+
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border:none;
+    outline:none;
+    height: 200px;
+    width: 250px;
+    margin: 20px 0px;
+}
+
+h4,h6{
+    font-weight: 400;
+}
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.A {
+    width: 18rem; 
+    float:left; 
+    margin-left: 20px; 
+    margin-top: 10px;
+    border: 0.5px solid grey;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.A img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.C{
+    width: 250px; 
+    height: 300px;
+    align-self: center;
+}

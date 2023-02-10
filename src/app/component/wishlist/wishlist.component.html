@@ -1,0 +1,60 @@
+<!--Wishlist is empty template starts-->
+<ng-container *ngIf="products.length==0">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">My Wishlist</h5>
+        
+            <div class="center">
+                <img src="assets/images/img29.gif" alt="">
+                <h4>No items in your wishlist!</h4>
+                <h6>Explore more and shortlist some items!</h6>
+                <br>
+                <button class="btn btn-dark" routerLink="/product">Shop Now</button>
+            </div>
+        </div>
+    </div>
+</ng-container>
+<!--Wishlist is empty template ends-->
+
+
+<!--Wishlist item cards starts-->
+<ng-container *ngIf="products.length!=0">
+    <div class="container">
+    <!--Product Cards starts-->
+    <br>
+    <h5 class="card-title">My Wishlist - {{totitem1}} items</h5>
+    <div class="A" *ngFor="let product of products | paginate:{
+        itemsPerPage: tableSize,
+        currentPage: page }; let i=index">
+        <img class="card-img-top" class="C" src={{product.imgUrl.img1}} alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><strong>{{product.brand}}</strong></h5>
+          <p class="card-text">{{product.name}}</p>
+          <p class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width:250ch;">{{product.description}}</p>
+          <p class="card-text"><strong>Rs. {{product.price}}</strong></p>
+          <p style="margin-left:10px;">
+            <a [routerLink]="['/product-details',product.id]" class="btn btn-info"><i class="fa-solid fa-circle-info"></i></a>&nbsp; 
+            <button class="btn btn-success"(click)="addToCart(product)"><i class="fa-sharp fa-solid fa-cart-shopping"></i></button>&nbsp;
+            <button (click)="removeItem(product)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+          </p>
+        </div>
+    </div>
+    <!--Product Cards ends-->
+    
+    
+    <!--Pagination starts-->
+    <div align ="center">
+        <pagination-controls
+        (pageChange) = "onCardDataChange($event)">
+        </pagination-controls>    
+    </div>
+    <!--Pagination ends-->
+</div>
+</ng-container>
+<!--Wishlist item cards ends-->
+
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br>
+<br><br>
+<!--Adjustments ends-->

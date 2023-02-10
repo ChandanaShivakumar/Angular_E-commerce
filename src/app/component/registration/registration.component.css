@@ -1,0 +1,22 @@
+.imgc{
+    float:left;
+    margin-left:60px;
+    width:600px;
+    height:970px;
+}
+
+.formc{
+    margin-left:680px;
+}
+
+.Bann1{
+    font-family: "Garamond", Times, serif;
+}
+
+.input-group-text {
+    display: block
+}
+
+.input-group {
+    width: 86%;
+}

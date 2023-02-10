@@ -1,0 +1,69 @@
+<!--Cart is empty template starts-->
+<ng-container *ngIf="products.length==0">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">My Cart</h5>
+
+            <div class="center">
+                <img src="assets/images/img28.gif" alt="">
+                <h4>Your cart feels light!</h4>
+                <h6>Cart empty alert! Lets add some items..</h6>
+                <br>
+                <button class="btn btn-dark" routerLink="/product">Shop Now</button>
+            </div>
+        </div>
+    </div>
+</ng-container>
+<!--Cart is empty template ends-->
+
+
+<!--Cart item cards starts-->
+<ng-container *ngIf="products.length!=0">
+    <br>
+    <h5 class="card-title" style="margin-left:70px;">My Cart</h5>
+    <!--Price card starts-->
+    <div class="card" style="width: 20rem; height: 22rem; float:right;">
+        <div class="card-body">
+            <h3 style="font-weight: 800px;">PRICE DETAILS</h3>
+            <p style="color:red;">({{counter * totitem}} products)</p>
+            <p>Convenience Fee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<del>Rs. 99</del>&nbsp;<span
+                    style="color: green; font-weight: 1000px;">FREE</span></p>
+            <p>Total Amount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{counter * grandtot}}
+            </p><br>
+            <button style="width:237px; margin-bottom: 10px;" class="btn btn-success"
+                (click)="pay()">Checkout</button><br>
+            <button style="margin-left:8px;" class="btn btn-danger" (click)="emptyCart()">Empty Cart</button> &nbsp;
+            <button class="btn btn-dark" routerLink="/product">Shop More</button> &nbsp;
+        </div>
+    </div>
+    <!--Price card ends-->
+
+    <div class="card" style="width: 800px; height:360px;" *ngFor="let item of products; let i=index;">
+        <div class="row no-gutters">
+            <div class="col-sm-5">
+                <img class="card-img" src={{item.imgUrl.img1}} style="width:300px; height:300px;">
+            </div>
+            <div class="col-sm-7">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.brand}}</h5>
+                    <p class="card-text">{{item.name}}</p>
+                    <p class="card-text">{{item.description}}</p>
+                    <p>
+                        <button class="btn btn-dark" (click)="onDecrement()">-</button>
+                        Qty : {{counter}}
+                        <button class="btn btn-dark" (click)="onIncrement()">+</button>
+                    </p>
+                    <p class="card-text"><strong>Rs. {{counter * item.price}}</strong> &nbsp; <strong
+                            style="color: orange;"><del>Rs. {{item.discountedprice}}</del></strong></p>
+                    <button (click)="removeItem(item)" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-container>
+<!--Cart item cards ends-->
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br>
+<br><br>
+<!--Adjustments ends-->

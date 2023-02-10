@@ -1,0 +1,112 @@
+<div class="container">
+
+    <!--Product details starts-->
+    <br>
+
+    <!--Right product details-->
+    <div class="card" style="width:400px; float:right;">
+        <h5 style="padding: 20px 20px 0px 20px; font-weight: 700; font-size: 30px;">{{products?.brand}}</h5>
+        <h5 style="padding: 5px 20px 0px 20px; font-weight: 70;">{{products?.name}}</h5>
+        <h5 style="padding: 0px 0px 0px 20px; font-size: 15px;border: 1px solid grey; width:180px; margin-left:20px; padding-bottom: 3px;">{{products?.star}}&nbsp;<i class="fa-solid fa-star" style="color:green;"></i> &nbsp; <font style="font-weight:3;">| &nbsp; {{products?.ratings}} Ratings</font></h5>
+        <hr>
+        <h5 style="padding: 0px 20px 0px 20px; font-weight: 700; font-size: 25px;">Rs.{{products?.price}}&nbsp; <p style="font-weight: 7; padding: 10px 0px 0px 0px;">MRP <del style="font-weight: 7;">Rs.{{products?.discountedprice}}</del> &nbsp;<strong style="color:orange;"> (Rs.&nbsp;{{products?.discountedprice-products?.price}} OFF)</strong></p></h5>
+        <p style="padding: 0px 20px 0px 20px; color: green; font-weight: 800;">inclusive of all taxes</p>
+
+        <!-- <p style="padding: 10px 20px 0px 20px;">SELECT SIZE</p>
+        <div style="padding: 0px 20px 0px 20px;" class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option1" autocomplete="off"> XS
+              </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option1" autocomplete="off"> S
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option2" autocomplete="off"> M
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option3" autocomplete="off"> L
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option3" autocomplete="off"> XL
+              </label>
+        </div> -->
+
+        <p><button class="btn btn-success" style="width:140px; margin-left: 20px;" (click)="addToCart(products)"><i class="fa-sharp fa-solid fa-cart-shopping"></i> &nbsp;Add to Cart</button>
+            <button class="btn" (click)="addToWishList(products)" style="background-color:#ff1a75; width:140px; margin-left: 20px;"><i class="fa-solid fa-heart"></i> &nbsp;Wishlist</button></p>
+        <p style="padding: 10px 20px 0px 20px; font-weight:6; margin-bottom: 0px;">This item cannot be returned.</p>
+        <hr>
+        <p style="margin-left:20px; margin-bottom: 0px;">Seller: <strong style="color:red;">{{products?.seller}}</strong></p>
+        <hr>
+        <h5 style="padding: 0px 20px 0px 20px;" >PRODUCT DETAILS</h5>
+        <p style="padding: 0px 20px 0px 20px;">{{products?.description}}</p>
+    </div>
+
+    <!--Left product image-->
+    <div class="thumbnail" style="width:300px; float:right; margin-right:100px;">
+        <img src="{{products?.imgUrl.img1}}" style="width:300px; height:350px; padding: 10px 10px 10px 10px;">
+    </div>
+    <div class="thumbnail" style="width:300px;float:right; margin-right:10px;">
+        <img src="{{products?.imgUrl.img2}}" style="width:300px; height:350px; padding: 10px 10px 10px 10px;">
+    </div>
+    <div class="thumbnail" style="width:300px;float:right; margin-right:100px; margin-top:10px">
+        <img src="{{products?.imgUrl.img3}}" style="width:300px; height:350px; padding: 10px 10px 10px 10px;">
+    </div>
+    <div class="thumbnail" style="width:300px;float:right; margin-right:10px; margin-top:10px">
+        <img src="{{products?.imgUrl.img4}}" style="width:300px; height:350px; padding: 10px 10px 10px 10px;">
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <hr>
+    <!--Product details ends-->
+
+    <!--Similar product gallery starts-->
+    <br>
+    <h3>SIMILAR PRODUCTS</h3>
+    <br>
+    <div class="card" style="width: 15rem;
+    float:left;
+    margin-left: 20px;
+    margin-top: 10px;" *ngFor="let product of filterCategory | filter: products?.type : 'type' | filter: products?.gender : 'gender'">
+      <img class="card-img-top" class="C" src={{product.imgUrl.img1}} alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"><strong>{{product.brand}}</strong></h5>
+        <p class="card-text">{{product.name}}</p>
+        <p class="card-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width:250ch;">{{product.description}}</p>
+        <p class="card-text"><strong>Rs. {{product.price}}</strong></p>
+        <p><a [routerLink]="['/product-details',product.id]" class="btn btn-info"><i class="fa-solid fa-circle-info"></i>&nbsp;Details</a></p>
+      </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
+  <hr>
+    <!--Similar product gallery ends-->
+
+    <!--Comments section starts-->
+    <br>
+    <h3>COMMENTS SECTION</h3>
+    <br>
+    <div class="card" *ngIf="destroy" style="width:300px; background-color: #ffe6ff; padding: 15px 5px 5px 5px; text-align:center;height:200px;float:right; margin-right:30px;">
+      <h6>Comments you entered:</h6>
+      <button class="btn btn-light" (click)="DestroyComponent()">Destroy</button>
+      <hr>
+      <p>{{inputtext}}</p>
+    </div>
+    <div class="container">
+      <p style="background-color:aliceblue; color: green; width:600px;">{{message}}</p>
+      <app-comments (childEvent)="message = $event" [parentData]="inpname"></app-comments>
+    </div>
+    <br>
+    <hr>
+    <!--Comments section ends-->
+
+</div>
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<!--Adjustments ends-->

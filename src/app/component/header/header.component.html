@@ -1,0 +1,45 @@
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <div style="padding-left: 30px;" class="navbar-brand align-item-center d-flex">
+            <i routerLink="/home" style="font-size: 40px;" class="fa-solid fa-infinity">&nbsp;</i>
+            <strong style="font-size: 25px;">Infinito</strong>&nbsp;
+            <div class="formgroup">
+                <input type="text" class="form-control" [(ngModel)]="searchterm" (keyup)= "search($event)" placeholder="search products by brand">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+        </div>
+
+        <div class="btn-group" style="padding-right:50px">
+            <div class="btn-group">
+              <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                <i style="font-size: 20px;" class="fa-sharp fa-solid fa-user"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" *ngIf="!LogIn()" routerLink="/login">Login</a></li>
+                <li><a class="dropdown-item" *ngIf="!LogIn()" routerLink="/register">Register</a></li>
+                <li><a class="dropdown-item" *ngIf="!LogIn()" routerLink="/login">Admin</a></li>
+                <li><a class="dropdown-item" *ngIf="LogIn()" routerLink="/home">Home</a></li>
+                <li><a class="dropdown-item" *ngIf="LogIn()" routerLink="/userdashboard">Dashboard</a></li>
+                <li><a class="dropdown-item" *ngIf="LogIn()" (click)="logout()">Logout</a></li>
+              </ul>
+            </div>
+            &nbsp;
+            &nbsp;
+            <button type="button" class="btn btn-light" routerLink="/product">
+                <i style="font-size: 20px;" class="fa-solid fa-dolly"></i>
+            </button>
+            &nbsp;
+            &nbsp;
+            <button type="button" class="btn btn-light" routerLink="/wishlist">
+                <i style="font-size: 20px;" class="fa-solid fa-heart-circle-plus"></i>
+                <div style="font-size: 10px;" class="badge bg-danger">{{totitem1}}</div>
+            </button>
+            &nbsp;
+            &nbsp;
+            <button type="button" class="btn btn-light" routerLink="/cart">
+                <i style="font-size: 20px;" class="fa-sharp fa-solid fa-cart-plus"></i>
+                <div style="font-size: 10px;" class="badge bg-danger">{{totitem}}</div>
+            </button>
+        </div>
+    </nav>
+</header>

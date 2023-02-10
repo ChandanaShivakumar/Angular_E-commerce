@@ -1,0 +1,72 @@
+<main class="main">
+    <section class="card-area">
+        <section class="card-section">
+            <div class="card">
+                <div class="flip-card">
+                    <div class="flip-card__container">
+                        <!--Card front-->
+                        <div class="card-front">
+                            <div class="card-front__tp card-front__tp--city">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGSYyZZtvwL1mdT40pnTswvFQ0QF4UvNScw&usqp=CAU" *ngIf="!genderCheck();" class="card-front__icon">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4oz0KdCvHj_hvY5exy-qFr06SPFjyA4ZoPg&usqp=CAU" *ngIf="genderCheck();" class="card-front__icon">
+                                <h2 class="card-front__heading">{{us.name}}</h2>
+                                <p class="card-front__text-price">{{us.description}}</p>
+                            </div>
+
+                            <div class="card-front__bt">
+                                <p class="card-front__text-view card-front__text-view--city">
+                                    Hover me!
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Card back-->
+                        <div class="card-back">
+                            <div class="video__container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4oz0KdCvHj_hvY5exy-qFr06SPFjyA4ZoPg&usqp=CAU" *ngIf="genderCheck();" alt="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGSYyZZtvwL1mdT40pnTswvFQ0QF4UvNScw&usqp=CAU" *ngIf="!genderCheck();" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inside-page">
+                    <div class="inside-page__container">
+                        <br>
+                        <h3 class="inside-page__heading inside-page__heading--city">
+                            {{us.name}}
+                        </h3>
+                        <p class="inside-page__text">
+                            <strong>Gender - </strong>{{us.gender}}
+                        </p>
+                        <p class="inside-page__text">
+                            <strong>DoB - </strong>{{us.dob}}
+                        </p>
+                        <p class="inside-page__text">
+                            <strong>Age - </strong>{{us.age}}
+                        </p>
+                        <p class="inside-page__text">
+                            <strong>Occupation - </strong>{{us.occupation}}
+                        </p>
+                        <p class="inside-page__text">
+                            <strong>Area of interest -</strong>
+                        </p>
+                        <p class="inside-page__text" *ngIf="us.interest1 === true">
+                            Classic
+                        </p>
+                        <p class="inside-page__text" *ngIf="us.interest2 === true">
+                            Ethnic
+                        </p>
+                        <p class="inside-page__text" *ngIf="us.interest3 === true">
+                            Relaxed
+                        </p>
+                        <p class="inside-page__text">
+                            <strong>Education - </strong>{{us.education}}
+                        </p>
+                        <!-- <a href="" class="inside-page__btn inside-page__btn--city">Edit</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+</section>
+</main>

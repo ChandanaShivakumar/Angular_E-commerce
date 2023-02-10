@@ -1,0 +1,36 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+  }
+  
+  div.desc {
+   
+    text-align: center;
+  }
+
+  .Bann1{
+    font-family: "Garamond", Times, serif;
+}
+
+ .Bann2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }

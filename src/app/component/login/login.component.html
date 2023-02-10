@@ -1,0 +1,79 @@
+<div>
+    <!--Login Banner starts-->
+    <br>
+    <div style="color:black; background-color:black; height: 3px; width: 50%;margin-left:300px;"class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+        <h1 class="Bann1" style="font-size:3vw; text-align: center;">LOGIN</h1>
+    <div style="color:black; background-color:black; height: 3px; width: 50%;margin-left:300px;"class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+    <br>
+    <!--Login Banner ends-->
+
+    <!--Side image-->
+    <img src="assets/images/img11.jpg" asp-append-version="true" class="imgc">
+
+    <!--Login form starts-->
+    <form [formGroup] = "loginForm" class="formc" (ngSubmit) = "logindata(loginForm)">
+
+    <!--<div style="background-color:aquamarine;">
+            {{loginForm.value | json}}
+        </div>-->
+
+        <!--Email-->
+        <div class="form-group">
+            <input [class.is-invalid]="loginForm.get('email')?.invalid &&
+            loginForm.get('email')?.touched" placeholder="Email" formControlName="email" style="width:500px;" class="form-control" type="email">
+
+            <!--for single error message-->
+            <!--<small [class.d-none]="loginForm.get('email')?.valid ||
+            loginForm.get('email')?.untouched" class="text-danger">Valid email is required</small> -->
+
+            <!--for multiple error message-->
+            <div *ngIf ="loginForm.get('email')?.invalid &&
+            loginForm.get('email')?.touched">
+            <small *ngIf ="loginForm.get('email')?.errors?.['required']" class="text-danger">Email required</small>
+            <small *ngIf ="loginForm.get('email')?.errors?.['email']" class="text-danger">Valid Email required</small>
+            </div>
+        </div>
+        <br>
+        <!--Password-->
+        <div class="form-group">
+            <div class="input-group">
+                <input [class.is-invalid]="loginForm.get('password')?.invalid &&
+                loginForm.get('password')?.touched" placeholder="Password" formControlName="password" style="width:50px;" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" [type]="type" required>
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <i (click)="hideshowpwd()" class="fa {{eyeIcon}}"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <small [class.d-none]="loginForm.get('password')?.valid ||
+            loginForm.get('password')?.untouched" class="text-danger">Password must have at least one number, one uppercase, one lowercase letter, and at least 6 or more characters
+        </small>
+        </div>
+
+        <!--Buttons-->
+        <div align="center">
+            <br>
+            <button class="btn btn-primary" type="submit">Login</button>&nbsp;
+            <input class="btn btn-primary" type="reset" value="Reset">&nbsp;
+            <button class="btn btn-primary" type="submit" routerLink="/register">New User? Register</button>&nbsp;
+        </div>
+        <br>
+        <!-- <div align="center">
+        <button class="btn btn-dark">
+            <a class="hollow button primary" href="https://accounts.google.com/">
+              <img width="15px" style="margin-bottom:3px; margin-right:5px" alt="Google login" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+              Sign in with Google
+            </a>
+        </button>
+        </div> -->
+    </form>
+    <!--Login form ends-->
+
+</div>
+
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
+<!--Adjustments ends-->

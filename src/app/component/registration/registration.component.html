@@ -1,0 +1,209 @@
+<div>
+    <!--Registration Banner begins-->
+    <br>
+    <div style="color:black; background-color:black; height: 3px; width: 50%;margin-left:300px;"class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+        <h1 class="Bann1" style="font-size:3vw; text-align: center;">REGISTRATION</h1>
+    <div style="color:black; background-color:black; height: 3px; width: 50%;margin-left:300px;"class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mb-1 border-bottom"></div>
+    <br>
+    <!--Registration Banner ends-->
+
+
+    <!--Side image-->
+    <img src="assets/images/img10.webp" asp-append-version="true" class="imgc">
+
+
+    <!--Registration Form starts-->
+    <form [formGroup] = "registrationForm" class="formc"  (ngSubmit) = "registerdata(registrationForm)">
+        
+        <!-- <div style="background-color:aquamarine;">
+            {{registrationForm.value | json}}
+        </div>-->
+
+
+        <!--Name-->
+        <div class="form-group">
+            <label>Name</label>
+            <input [class.is-invalid]="registrationForm.get('name')?.invalid &&
+            registrationForm.get('name')?.touched" formControlName="name" style="width:500px;" class="form-control" type="text">
+
+            <div *ngIf ="registrationForm.get('name')?.invalid &&
+            registrationForm.get('name')?.touched">
+            <small *ngIf ="registrationForm.get('name')?.errors?.['required']" class="text-danger">Name required</small>
+            <small *ngIf ="registrationForm.get('name')?.errors?.['minlength']" class="text-danger">Valid Name required</small>
+            </div>
+        </div>
+
+        <!--Email-->
+        <div class="form-group">
+            <label>Email</label>
+            <input [class.is-invalid]="registrationForm.get('email')?.invalid &&
+            registrationForm.get('email')?.touched" formControlName="email" style="width:500px;" class="form-control" type="email">
+
+            <div *ngIf ="registrationForm.get('email')?.invalid &&
+            registrationForm.get('email')?.touched">
+            <small *ngIf ="registrationForm.get('email')?.errors?.['required']" class="text-danger">Email required</small>
+            <small *ngIf ="registrationForm.get('email')?.errors?.['email']" class="text-danger">Valid Email required</small>
+            </div>
+        </div>
+
+        <!--Password-->
+        <label>Password</label>
+        <br>
+        <div class="form-group">
+            <div class="input-group">
+                <input [class.is-invalid]="registrationForm.get('password')?.invalid &&
+                registrationForm.get('password')?.touched" formControlName="password"class="form-control" id="myInput" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" [type]="type" required>
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <i (click)="hideshowpwd()" class="fa {{eyeIcon}}"></i>
+                    </div>
+                </div>
+            </div>
+
+            <small [class.d-none]="registrationForm.get('password')?.valid ||
+            registrationForm.get('password')?.untouched" class="text-danger">Password must have at least one number, one uppercase, one lowercase letter, and at least 6 or more characters
+        </small>
+        </div>
+
+        <!--Confirm Password-->
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input [class.is-invalid]="registrationForm.errors?.['misMatch']" formControlName="conpwd" style="width:500px;" class="form-control" type="password" required>
+            <small *ngIf="registrationForm.errors?.['misMatch']" class="text-danger">Passwords donot match</small>
+        </div>
+
+        <!--Gender-->
+        <div class="mb-3">
+            <label>Gender</label>
+            <div class="form-check">
+                <input class="form-check-input" formControlName="gender" type="radio" name="gender" value="Male">
+                <label class="form-check-label">Male</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input"  formControlName="gender" type="radio" name="gender" value="Female">
+                <label class="form-check-label">Female</label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" formControlName="gender" type="radio" name="gender" value="Others">
+                <label class="form-check-label">Others</label>
+            </div>
+        </div>
+
+        <!--DOB-->
+            <div class="form-group">
+                <div class="col-md-6">
+                    <label>Date of Birth</label>
+                    <input #dob (blur)="displayage()" formControlName="dob" type="date" class="form-control"
+                    [class.is-invalid]="registrationForm.get('dob')?.invalid &&
+                    registrationForm.get('dob')?.touched">
+
+                    <small [class.d-none]="registrationForm.get('dob')?.valid ||
+                    registrationForm.get('dob')?.untouched" class="text-danger">Choose a date</small>
+                </div>
+
+                <div class="col-sm-3 my-1">
+                    <input #age formControlName="age" type="text" class="form-control" placeholder="Age"[class.is-invalid]="registrationForm.get('dob')?.invalid &&
+                    registrationForm.get('dob')?.touched">
+                </div>
+            </div>
+            
+        <!--Description-->
+        <br>
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <br>
+            <textarea style="width:500px;" formControlName="description" id="Description" 
+            [class.is-invalid]="registrationForm.get('description')?.invalid &&
+            registrationForm.get('description')?.touched" class="form-control"></textarea>
+            
+            <small [class.d-none]="registrationForm.get('description')?.valid ||
+            registrationForm.get('description')?.untouched" class="text-danger">Description is required</small>
+        </div>
+
+        <!--Occupation-->
+        <div class="form-group">
+            <br>
+            <label for="TNC">Occupation</label>
+            <select style="width:500px;" class="form-control" name="Occupation" id="Occupation" formControlName="occupation"
+            [class.is-invalid]="registrationForm.get('occupation')?.invalid &&
+            registrationForm.get('occupation')?.touched">
+                <option value="">Choose occupation</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Government employee">Government employee</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Businessman">Businessman</option>
+                <option value="Teacher">Teacher</option>
+            </select>
+           <small [class.d-none]="registrationForm.get('occupation')?.valid ||
+            registrationForm.get('occupation')?.untouched" class="text-danger"> Please choose your occupation</small>
+        </div>
+
+        <!--User Image-->
+        <div class="form-group">
+            <br>
+            <label for="myfile" class="form-label">Upload user image</label>
+            <input [class.is-invalid]="registrationForm.get('file')?.invalid &&
+            registrationForm.get('file')?.touched" style="width:500px;" class="form-control" type="file" id="myfile" name="myfile" formControlName="file" >
+        </div> 
+
+        <!--Area of interest-->
+        <div class="form-group">
+            <br>
+            <label>Area of Interest</label>
+            <div>
+                <input type="checkbox" id="classic" name="interest" value="classic" formControlName="interest1"/>
+                &nbsp;<label for="classic">Classic</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ethnic" name="interest1" value="ethnic" formControlName="interest2"/>
+                &nbsp;<label for="ethnic">Ethnic</label>
+            </div>
+            <div>
+                <input type="checkbox" id="relaxed" name="interest2" value="relaxed" formControlName="interest3"/>
+                &nbsp;<label for="relaxed">Relaxed</label>
+            </div>
+        </div>
+
+        <!--Add education-->
+        <div class="form-group">
+            <label>Add education</label>
+            <button type="button" (click)="addEducation()" class="btn btn-secondary btn-sm m-2">+</button>
+            <small [class.d-none]="registrationForm.get('education')?.valid ||
+                    registrationForm.get('education')?.untouched" class="text-danger"> Please add education details</small>
+                    
+            <div class="input-group mb-1" formArrayName="education" *ngFor="let education of education.controls; let i=index">
+                <div class="form control col-xs-6">
+                    <input type="text" class="form-control" [formControlName]="i" style="width:300px;">
+                    </div>&nbsp;
+                <div class="input-group-append">
+                    <span class="input-group" id="basic-addon2">
+                    <button type="button" (click)="subEducation(i)" class="btn btn-danger btn-sm m-1">-</button>
+                    </span>     
+                </div>
+            </div>
+        </div>
+
+        <!--T and C-->
+        <div class="form-group">
+            <input type="checkbox" id="TNC" name="interest" formControlName="tnc" [class.is-invalid]="registrationForm.get('tnc')?.invalid &&
+            registrationForm.get('tnc')?.touched">&nbsp;
+            <label for="TNC">Terms and conditions</label>
+        </div>
+
+        <!--Buttons-->
+        <div>
+            <br>
+            <button class="btn btn-primary" type="submit">Submit</button>&nbsp;
+            <input class="btn btn-primary" type="reset" value="Reset">
+        </div>
+
+    </form>
+    <!--Registration form ends-->
+</div>
+
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br><br>
+<!--Adjustments ends-->

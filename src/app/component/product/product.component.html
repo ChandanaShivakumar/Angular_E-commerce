@@ -1,0 +1,172 @@
+<!--Few mandatories start-->
+<div style="margin-left: 30px;" class="CC">
+  <br>
+
+  <!--Current date and time-->
+  <p #highlight>{{Today | date: 'medium'}} </p>
+
+  <!--Sort By Parameter-->
+  <div class="sortdiv">
+    <label>Sort by : &nbsp;</label>
+    <select [(ngModel)] = 'SortbyParam'>
+      <option value = "price">Price</option>
+      <option value = "brand">Brand</option>
+      <option value = "name">Name</option>
+    </select>
+    &nbsp;
+    <button type="button"  (click) ="onSortDire()">
+      <i *ngIf="SortbyDire === 'desc'" class="fas fa-sort-alpha-up"></i>
+      <i *ngIf="SortbyDire === 'asc'" class="fas fa-sort-alpha-down"></i>
+    </button>
+  </div>
+  <p #highlight><strong>Products - </strong>{{prods.length}} items</p>
+  <br>
+</div>
+<!--Few mandatories end-->
+
+
+<!--Category filter starts-->
+<!-- <div class="card-top container-fluid" class="CC">
+  <div class="container d-flex">
+    <div class="item">
+      <a>
+        <img src="assets/images/img13.jpg" alt="">
+        <h6>All products1</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img src="assets/images/img13.jpg" >
+        <h6>All products2</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img src="assets/images/img13.jpg" >
+        <h6>All products3</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a>
+        <img src="assets/images/img13.jpg" >
+        <h6>All products4</h6>
+      </a>
+    </div>
+  </div>
+</div> -->
+<!--Category filter ends-->
+
+
+<!--Side navbar filter starts-->
+<div class="sidenav">
+  <br>
+  <input style="margin-left: 20px;" type="radio" value="" [(ngModel)]="genders" [(ngModel)] = "types" [(ngModel)] = "searchKey"/>
+  <span class="px-1">Clear All Filters</span>
+  <hr>
+
+  <h6 style="margin-left: 20px;">CLOTHING AND ACCESSORIES :</h6>
+  <h6 style="margin-left: 20px;">Gender</h6>
+  <input style="margin-left: 20px;" type="radio" name="Choose" value = "Men" [(ngModel)] = "genders"/>
+    <span class="px-1">Men</span>
+  <input style="margin-left: 20px;" type="radio" name="Choose" value = "Women" [(ngModel)] = "genders"/>
+    <span class="px-1">Women</span>
+    <br>
+  <input style="margin-left: 20px;" type="radio" name="Choose" value = "Boy" [(ngModel)] = "genders"/>
+    <span class="px-1">Boy</span>
+  <input style="margin-left: 20px;" type="radio" name="Choose" value = "Girl" [(ngModel)] = "genders"/>
+    <span class="px-1">Girl</span>
+
+    <br><br>
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "TShirt" [(ngModel)] = "types"/>
+    <span class="px-1">TShirt</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Shirt" [(ngModel)] = "types"/>
+    <span class="px-1">Shirt</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Top" [(ngModel)] = "types"/>
+    <span class="px-1">Top</span>
+    <br>
+  
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Jeans" [(ngModel)] = "types"/>
+    <span class="px-1">Jeans</span>
+    <br>
+  
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Stole" [(ngModel)] = "types"/>
+    <span class="px-1">Stole</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Bag" [(ngModel)] = "types"/>
+    <span class="px-1">Bag</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Shoes" [(ngModel)] = "types"/>
+    <span class="px-1">Shoes</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose1" value = "Watch" [(ngModel)] = "types"/>
+    <span class="px-1">Watch</span>
+    <hr>
+
+  <h6 style="margin-left: 20px;">GROCERY :</h6>
+  <input style="margin-left: 20px;" type="radio" name="Choose2" value = "Vegetable" [(ngModel)] = "types"/>
+    <span class="px-1">Vegetable</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose2" value = "Fruit" [(ngModel)] = "types"/>
+    <span class="px-1">Fruit</span>
+    <br>
+
+  <input style="margin-left: 20px;" type="radio" name="Choose2" value = "Cake" [(ngModel)] = "types"/>
+    <span class="px-1">Cake</span>
+    <br>
+  
+  <input style="margin-left: 20px;" type="radio" name="Choose2" value = "Rice" [(ngModel)] = "types"/>
+    <span class="px-1">Rice</span>
+    <br>
+    <hr>
+  <!-- <h6>Size</h6>
+  <input type="radio" name="Choose2" value = "XS" [(ngModel)] = "sizes"/>
+    <span class="px-1">XS</span>
+    <br>
+  
+  <input type="radio" name="Choose2" value = "S" [(ngModel)] = "sizes"/>
+    <span class="px-1">S</span>
+    <br> -->
+</div>
+<!--Side navbar filter ends-->
+
+
+<!--Product Cards starts-->
+<div class="CC">
+<div class="card" *ngFor="let product of prods | filter : searchKey : 'brand' | filter: genders:'gender'| filter: types:'type' | filter: sizes: 'size'| sort: [SortbyParam, SortbyDire] | paginate:{
+    itemsPerPage: tableSize,
+    currentPage: page }; let i=index">
+    <img class="card-img-top" class="C" src={{product.imgUrl.img1}} alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><strong>{{product.brand}}</strong></h5>
+      <p class="card-text">{{product.name}}</p>
+      <p style="margin-left:25px; " class="card-text"><strong>Rs. {{product.price}}</strong>&nbsp;&nbsp;
+      <button type="button" class="btn" style="background-color:rgb(255, 255, 129)" appReadmore title="{{product.description}}">
+        <i class="fa-brands fa-readme"></i> &nbsp;Read more
+      </button></p>
+      <p style="margin-left:10px;"><a [routerLink]="['/product-details',product.id]" class="btn btn-info"><i class="fa-solid fa-circle-info"></i>&nbsp;Details</a> &nbsp; <button class="btn btn-success"(click)="addToCart(product)"><i class="fa-sharp fa-solid fa-cart-shopping"></i> &nbsp;Add to Cart</button></p>
+    </div>
+</div>
+</div>
+<!--Product Cards ends-->
+
+
+<!--Pagination starts-->
+<div align ="center">
+    <pagination-controls
+    (pageChange) = "onCardDataChange($event)">
+    </pagination-controls>    
+</div>
+<!--Pagination ends-->
+
+
+<!--Adjustments starts-->
+<br><br><br><br><br><br><br><br><br><br>
+<!--Adjustments ends-->
