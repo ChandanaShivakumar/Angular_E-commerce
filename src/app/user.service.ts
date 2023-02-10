@@ -8,7 +8,7 @@ import { IUser } from './user';
 })
 export class UserService {
 
-  private _url1: string = "http://localhost:3000/users";
+  private _url1: string = "https://angular-jsonserver.vercel.app/users";
 
   constructor(private http: HttpClient) { }
   
